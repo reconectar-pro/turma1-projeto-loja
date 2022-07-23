@@ -1,0 +1,11 @@
+.cabeçalho{
+    width: 100%;
+    height: 10%;
+    background-color: aquamarine;
+}
+
+.menu{
+    width: 10%;
+    height: 25%;
+    background-color: chartreuse;
+}
