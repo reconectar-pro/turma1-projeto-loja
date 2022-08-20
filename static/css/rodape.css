@@ -1,0 +1,20 @@
+.footer {
+    clear: both;
+    background-color: rgb(41, 235, 16);
+}
+
+.footer ul {
+    list-style-type: none;
+    
+}
+
+.footer ul li{
+    display:inline1
+}
+
+.footer .bandeiras {
+    margin: 10px;
+    
+}
+
+

@@ -1,0 +1,19 @@
+.comunidade {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+textarea {
+    margin: 12px 10px 10px 10px;
+    max-width: 50%;
+    max-height: 100px;
+}
+
+.comunidade button {
+    display: inline;
+}

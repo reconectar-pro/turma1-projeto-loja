@@ -1,0 +1,23 @@
+aside {
+    width: 15%;
+    float: left;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    border-bottom: 1px solid black;
+}
+
+nav ul li a {
+    background-color: rgb(41, 235, 16);
+    color: #FFF;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+}

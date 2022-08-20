@@ -1,0 +1,29 @@
+.cabecalho_principal {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background: rgb(245, 237, 237);
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_img {
+    border-radius: 40px;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.favoritos_img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu_superior {
+    list-style-type: none;
+    margin: 0 25px 0 0;
+}
+
+.menu_superior li {
+    display: inline;
+}
