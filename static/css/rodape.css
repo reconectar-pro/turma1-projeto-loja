@@ -1,8 +1,19 @@
 .footer {
     clear: both;
-    background-color: rgb(35, 235, 241);
+    background-color: rgb(41, 235, 16);
 }
 
 .footer ul {
-    list-style-type: none;
+    list-style-type: none; 
 }
+
+.footer ul li{
+    display:inline1
+}
+
+.footer .bandeiras {
+    margin: 10px;
+    
+}
+
+
