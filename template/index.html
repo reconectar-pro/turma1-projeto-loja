@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+ 
 <!--
     Lang="pt-BR" não interferem no HTML, são apenas valores pra informar qual o idioma se encontra,
     por exemplo alguns navegadores possuem detecção de idioma da página e eles podem repassar
@@ -59,7 +59,7 @@
                         <img
                             src="https://ph-cdn3.ecosweb.com.br/imagens01/foto/plus-size-feminino/blusa-manga-curta/blusa-cinza-soltinha-com-decote-v_272399_600_1.jpg" />
                         <p>Descrição do produto</p>
-                        <span><button>Comprar</button></span>
+                        <span><button onclick="enviar('BLUSA CINZA SOLTINHA')">Comprar</button></span>
                     </div>
                 </li>
                 <li>
@@ -68,7 +68,7 @@
                         <img
                             src="https://img.ltwebstatic.com/images3_pi/2021/12/16/1639625871c0ae29440c484e28228d8deb0145e87e_thumbnail_600x.webp" />
                         <p>Descrição do produto</p>
-                        <span><button>Comprar</button></span>
+                        <span><button ONCLICK="ENVIAR('BLUSA EMERY ROSE')">Comprar</button></span>
                     </div>
                 </li>
             </ul>
@@ -90,6 +90,13 @@
         </ul>
         </section>
     </footer>
+<script>
+    function enviar(produto){
+        console.log(produto);
+        window.open('https://wa.me/5511985415874?text=' + produto)
+    }
+
+</script>
 </body>
 
 </html>
