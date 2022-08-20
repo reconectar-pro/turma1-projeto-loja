@@ -1,0 +1,22 @@
+.produtos {
+    list-style-type: none;
+    text-align: center;
+}
+
+.produtos li {
+    display: inline;
+}
+
+
+.produto_detalhe {
+    float: left;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.produto_detalhe img {
+    width: 40%;
+}

@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 85%;
+    float: right;
+    padding-bottom: 25px;
+}

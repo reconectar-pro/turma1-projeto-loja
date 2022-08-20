@@ -1,0 +1,8 @@
+.footer {
+    clear: both;
+    background-color: rgb(35, 235, 241);
+}
+
+.footer ul {
+    list-style-type: none;
+}
